@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta title="InstaPet">
+    </head>
+
+    <body>
+        <h1>Instapet</h1>
+        <h4>Tenemos la primera red social para mascotas. Insribí a tu mascota para que pueda comenzar a conectar con sus amiwis del parque.</h4
+        <br>
+        <div>
+                <form action="https://formspree.io/f/mnqooeor" method="POST">
+                <div>
+                        <label for="PetName">Nombre 
+                        <input id="PetName" name="nombre" placeholder="Nombre de tu mascota" type="text" required>
+                    </label>
+                    <br>
+                    <label>Edad de la mascota
+                        <input placeholder="Años" type="number" required>
+                    </label>
+                    <br>
+                    <label for="email">Tu e-mail 
+                        <input id="email" name="email" placeholder="Correo electronico" type="email" required>
+                    </label>
+                    <br>
+                    <label>Contraseña 
+                        <input placeholder="pass" type="password" required>
+                    </label>
+                </div>
+                <br>
+                <label for="color">Color de tu mascota
+                    <input id="color" name="color" placeholder="color" type="color" required>
+                </label>
+                <br>
+                <div>
+                    <label for="genero">Masculino</label>
+                        <input type="radio" name="genero" value="macho">
+                    <label for="genero">Femenino</label>
+                        <input type="radio" name="genero" value="hembra">
+                </div>
+                <br>    
+                <label>Tipo de mascota
+                <select name="tipo_de_mascota">
+                    <option value="miau">Gato</option>
+                    <option value="guau">Perro</option>
+                    <option value="cob">Cobayo</option>
+                    <option value="other">Otra</option>
+                </select>
+                <br>
+                <label for="consultas">Contános sobre tu mascota</label>
+                <br>
+                    <textarea id="consultas" rows="10" cols="40" placeholder="¿Cuáles son sus comidas y juegos favoritos?"></textarea>     
+                <br>
+                <label for="checkbox">Acepto las bases y condiciones del sitio</label>
+                    <input id="checkbox" name="acepta" type="checkbox" value="consent">        
+                <br>
+                    <input type="submit"> 
+            
+        </label>
+            
+        </form>
+    </div>    
+    </body>
+</html>

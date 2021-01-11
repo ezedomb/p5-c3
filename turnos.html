@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta title="Turnos">
+    </head>
+
+    <body>
+        <form>
+            <label>Nombre
+                <input name="nome" placeholder="Introduce tu nombre" type="text" required>
+            </label>
+            <br>
+            <label>Contraseña
+                <input name="pass" placeholder="Introduce contraseña" type="password" required>
+            </label>
+            <br>
+            <label>Email
+                <input name="email" placeholder="Introduce tu email" type="email" required>
+            </label>
+            <br>
+            <label>Mañana
+                <input name="Turno" type="radio" value="tm">
+            </label>
+            <label>Tarde
+                <input name="Turno" type="radio" value="tt">
+            </label>
+            <label>Sábado
+                <input name="Turno" type="radio" value="ts">
+            </label>
+            <label>A Tu Ritmo
+                <input name="Turno" type="radio" value="atr">
+            </label>
+            <br>
+            <label for="sede">Elegí la sede donde querés estudiar</label>
+            <select name="sede" id="sede">
+                <option value="atr2">Online A Tu Ritmo</option>
+                <option value="pal">Palermo</option>
+                <option value="itu">Ituzaingó</option>
+                <option value="chi">Santiago De Chile</option>
+            </select>
+            <br>
+            <label for="checkbox">Acepto recibir informacion sobre el curso</label>
+                <input id="checkbox" name="mailing" type="checkbox" value="consent">
+            
+            <label for="consultas">¿Tenés alguna otra duda?</label>
+            <br>
+            <textarea id="consultas" rows="20" cols="40" placeholder="Dejanos tu consulta"></textarea>
+            <br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
